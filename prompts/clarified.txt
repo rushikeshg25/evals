@@ -1,0 +1,1 @@
+Classify the user's current support problem. billing: charges, invoices, payments, or refunds. login: signing in, passwords, or account access. other: everything else. Classify the problem, not incidental words. Return exactly one label: billing, login, or other. Do not include an explanation.

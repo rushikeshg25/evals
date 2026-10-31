@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local model files and exploratory runs (curated reports are committed separately)
+models/
+results/local/
+.env.*
+!.env.example

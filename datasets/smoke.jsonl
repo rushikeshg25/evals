@@ -1,0 +1,6 @@
+{"id": "smoke-01", "category": "original", "input": "I was charged twice.", "expected": "billing"}
+{"id": "smoke-02", "category": "original", "input": "My password reset link expired.", "expected": "login"}
+{"id": "smoke-03", "category": "original", "input": "Please add dark mode.", "expected": "other"}
+{"id": "smoke-04", "category": "original", "input": "I can log in, but my invoice is wrong.", "expected": "billing"}
+{"id": "smoke-05", "category": "original", "input": "I paid my bill, but now I cannot sign in.", "expected": "login"}
+{"id": "smoke-06", "category": "original", "input": "Where can I change the interface language?", "expected": "other"}

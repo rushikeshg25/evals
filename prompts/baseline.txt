@@ -1,0 +1,1 @@
+Classify the support ticket. Return exactly one label: billing, login, or other. Do not include an explanation.
