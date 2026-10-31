@@ -37,6 +37,8 @@ def run(args):
     prompt_path = ROOT / "prompts" / f"{args.prompt}.txt"
     cases = load_cases(suite_path)
     prompt = prompt_path.read_text().strip()
+    if not prompt:
+        raise ValueError(f"{prompt_path.name}: prompt must not be empty")
     started = datetime.now(timezone.utc)
     stamp = started.strftime("%Y%m%dT%H%M%S%fZ")
     output = args.output or ROOT / "results" / "local" / f"{stamp}-{args.suite}-{args.prompt}.json"

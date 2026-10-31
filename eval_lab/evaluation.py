@@ -20,6 +20,8 @@ def load_cases(path):
         if not line.strip():
             continue
         case = json.loads(line)
+        if not isinstance(case, dict):
+            raise ValueError(f"{path.name}:{line_number}: each case must be a JSON object")
         for key in ("id", "category", "input", "expected"):
             if not isinstance(case.get(key), str) or not case[key].strip():
                 raise ValueError(f"{path.name}:{line_number}: missing/nonempty string required: {key}")
