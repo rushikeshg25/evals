@@ -1,0 +1,27 @@
+{
+  "selected_at_utc": "2026-10-31T10:49:52.383189+00:00",
+  "selected_prompt": "few-shot",
+  "criterion": "Highest development accuracy; ties use valid-label rate, then shorter prompt.",
+  "candidates": [
+    {
+      "prompt": "baseline",
+      "accuracy": 0.2777777777777778,
+      "report": "development-baseline.json",
+      "report_sha256": "682a92024673872a2e77e63924b8f783588f785bf2c70d15495c496b3e31e311"
+    },
+    {
+      "prompt": "clarified",
+      "accuracy": 0.3055555555555556,
+      "report": "development-clarified.json",
+      "report_sha256": "2ebc96646024da5cea79b890de2d65ba6da66d677f5c29d6713d4ba50d0e7545"
+    },
+    {
+      "prompt": "few-shot",
+      "accuracy": 0.6388888888888888,
+      "report": "development-few-shot.json",
+      "report_sha256": "7f9d8c7c467d0f73c604868ac49e14e9a255f3e1735622f766bc4f0ce41ce295"
+    }
+  ],
+  "holdout_used_for_selection": false,
+  "next_run": "holdout-few-shot.json"
+}
