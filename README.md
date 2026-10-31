@@ -1,4 +1,4 @@
-# Local Qwen Eval Lab
+# Local Qwen Eval
 
 Learn how to measure model behavior with a small, inspectable Python project.
 The task is support-ticket classification: return exactly `billing`, `login`, or
